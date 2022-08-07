@@ -1,0 +1,6 @@
+kociemba==1.2.1
+numpy==1.21.5
+opencv_python==4.5.4.60
+PyQt5==5.15.7
+PyYAML==6.0
+scikit_learn==1.1.1
