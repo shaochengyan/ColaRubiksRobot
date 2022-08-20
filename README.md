@@ -1,3 +1,9 @@
+Run with Makefile:
+
+```
+make r_main
+```
+
 The algorithm of recognize color of Rubiks Cube:
 
 <img src="README.assets/image-20220807140501642.png" alt="image-20220807140501642" style="zoom:80%;" />
