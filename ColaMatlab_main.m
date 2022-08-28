@@ -29,6 +29,17 @@ for i = 1:6
     color_hsv_cell{i} = tmp;
 end
 
+%% hsv, white and orange
+scale = [1, 1, 1];
+draw_point_with_color2(color_hsv_cell{2}, 'g', scale);
+hold on
+draw_point_with_color2(color_hsv_cell{4}, 'r', scale);
+hold on
+draw_point_with_color2(color_hsv_cell{1}, 'y', scale);
+xlabel("H")
+ylabel("S")
+zlabel("V")
+axis equal
 
 %% bgr, all data
 figure(1);
